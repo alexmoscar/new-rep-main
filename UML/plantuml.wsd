@@ -1,0 +1,8 @@
+@startuml
+actor Клиент as Client
+participant "Приложение" as APPLICATION
+participant "Поиск авто" as Search_engine
+Client -> APPLICATION: Заказывает такси
+activate APPLICATION
+APPLICATION -> Search_engine: Ищет машину
+deactivate APPLICATION
