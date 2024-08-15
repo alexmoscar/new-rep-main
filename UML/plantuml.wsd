@@ -1,8 +1,57 @@
-@startuml
+@startuml FFF
+autonumber
 actor Клиент as Client
 participant "Приложение" as APPLICATION
 participant "Поиск авто" as Search_engine
+participant "Водитель" as Driver
+participant "Банк" as Bank
+participant "Система платежей" as Payment
 Client -> APPLICATION: Заказывает такси
 activate APPLICATION
 APPLICATION -> Search_engine: Ищет машину
 deactivate APPLICATION
+activate Search_engine
+Search_engine -> Driver: Предлагает водителю
+deactivate Search_engine
+activate Driver
+Driver -> Search_engine: Принимает заказ
+deactivate Driver
+activate Search_engine
+Search_engine -> APPLICATION: заказ принят
+deactivate Search_engine
+activate APPLICATION
+APPLICATION -> Client: К вам едет водитель....
+deactivate APPLICATION
+activate Driver
+Driver -> APPLICATION: на месте
+deactivate Driver
+activate APPLICATION
+APPLICATION -> Client: Авто ожидает вас
+deactivate APPLICATION
+activate Driver
+Driver -> APPLICATION: завершить поездку
+deactivate Driver
+activate APPLICATION
+APPLICATION -> Payment: списать сумму за поездку
+deactivate APPLICATION
+activate Payment
+Payment -> Bank: есть ли средства?
+deactivate Payment
+Payment -> Payment
+alt Деньги есть на счету
+    Bank -> Payment: одобряет оплату
+activate Payment
+    Payment -> APPLICATION: оплата произведена
+deactivate Payment
+activate APPLICATION
+    APPLICATION -> Client: оцените поездку
+deactivate APPLICATION
+else Недостаточно денег на карте
+activate Payment
+    Payment -> APPLICATION: недостаточно средств
+deactivate Payment
+activate APPLICATION
+    APPLICATION -> Client: для совершения следующей \nпоездки, оплатите задолженность
+deactivate APPLICATION
+end    
+@enduml
