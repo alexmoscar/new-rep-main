@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type=«text/xsl» href=«style.xslt»?>
+<menu>
+    <item>
+        <name>Салат Цезарь</name>
+        <description>Салат с курицей, листьями романа, сухариками и соусом Цезарь.</description>
+        <price>450 руб.</price>
+    </item>
+    <item>
+        <name>Борщ</name>
+        <description>Классический русский суп с мясом, капустой и свеклой, подается со сметаной.</description>
+        <price>320 руб.</price>
+    </item>
+    <item>
+        <name>Пельмени с говядиной</name>
+        <description>Традиционные русские пельмени, приготовленные на пару или в бульоне.</description>
+        <price>400 руб.</price>
+    </item>
+    <item>
+        <name>Греческий салат</name>
+        <description>Свежие овощи, фета и маслины с оливковым маслом.</description>
+        <price>350 руб.</price>
+    </item>
+    <item>
+        <name>Стейк рибай</name>
+        <description>Сочный стейк из мраморной говядины, приготовленный на гриле.</description>
+        <price>1200 руб.</price>
+    </item>
+    <item>
+        <name>Куриное филе с грибным соусом</name>
+        <description>Нежное куриное филе, поданное с соусом из шампиньонов.</description>
+        <price>550 руб.</price>
+    </item>
+    <item>
+        <name>Спагетти Карбонара</name>
+        <description>Итальянская паста с беконом и сливочным соусом.</description>
+        <price>450 руб.</price>
+    </item>
+    <item>
+        <name>Фирменный чизкейк</name>
+        <description>Нежный десерт с творожной начинкой и малиновым соусом.</description>
+        <price>250 руб.</price>
+    </item>
+    <item>
+        <name>Чай черный</name>
+        <description>Классический черный чай.</description>
+        <price>100 руб.</price>
+    </item>
+    <item>
+        <name>Фруктовый фреш</name>
+        <description>Свежевыжатый сок из апельсина и грейпфрута.</description>
+        <price>200 руб.</price>
+    </item>
+</menu>
