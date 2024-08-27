@@ -1,0 +1,71 @@
+{
+    "shopping_cart": {
+      "items": [
+        {
+          "category": "Продукты питания",
+          "products": [
+            {
+              "name": "Молоко",
+              "quantity": 2,
+              "unit": "литр",
+              "price_per_unit": 70,
+              "total_price": 140
+            },
+            {
+              "name": "Хлеб",
+              "quantity": 1,
+              "unit": "шт",
+              "price_per_unit": 50,
+              "total_price": 50
+            },
+            {
+              "name": "Яблоки",
+              "quantity": 5,
+              "unit": "кг",
+              "price_per_unit": 80,
+              "total_price": 400
+            }
+          ]
+        },
+        {
+          "category": "Бытовая химия",
+          "products": [
+            {
+              "name": "Порошок стиральный",
+              "quantity": 1,
+              "unit": "упаковка",
+              "price_per_unit": 300,
+              "total_price": 300
+            },
+            {
+              "name": "Мыло",
+              "quantity": 3,
+              "unit": "шт",
+              "price_per_unit": 40,
+              "total_price": 120
+            }
+          ]
+        },
+        {
+          "category": "Косметика",
+          "products": [
+            {
+              "name": "Шампунь",
+              "quantity": 1,
+              "unit": "флакон",
+              "price_per_unit": 250,
+              "total_price": 250
+            },
+            {
+              "name": "Зубная паста",
+              "quantity": 2,
+              "unit": "тюбик",
+              "price_per_unit": 90,
+              "total_price": 180
+            }
+          ]
+        }
+      ],
+      "total_amount": 1440
+    }
+  }
