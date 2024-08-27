@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type=«text/xsl» href=«style.xslt»?>
 <menu>
     <item>
         <name>Салат Цезарь</name>
@@ -8,8 +7,8 @@
     </item>
     <item>
         <name>Борщ</name>
-        <description>Классический русский суп с мясом, капустой и свеклой, подается со сметаной.</description>
-        <price>320 руб.</price>
+        <description>Классический русский суп с мясом, подается со сметаной.</description>
+        <price>330 руб.</price>
     </item>
     <item>
         <name>Пельмени с говядиной</name>
